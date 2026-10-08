@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "TaskFlow", "slug": "taskflow-project-manager", "version": "1.0.0",
+    "orientation": "portrait", "userInterfaceStyle": "light",
+    "android": { "package": "com.taskflow.projectmanager", "permissions": [] },
+    "plugins": ["expo-secure-store"],
+    "extra": { "apiUrl": "http://10.0.2.2:4000/api" }
+  }
+}

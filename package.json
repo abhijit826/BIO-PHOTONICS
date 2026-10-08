@@ -1,0 +1,12 @@
+{
+  "name": "taskflow-project-manager",
+  "private": true,
+  "workspaces": ["backend", "web", "mobile"],
+  "scripts": {
+    "dev:api": "npm --workspace backend run dev",
+    "dev:web": "npm --workspace web run dev",
+    "dev:mobile": "npm --workspace mobile run start",
+    "build:web": "npm --workspace web run build",
+    "build:api": "npm --workspace backend run build"
+  }
+}
